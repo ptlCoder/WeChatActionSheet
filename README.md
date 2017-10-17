@@ -4,7 +4,7 @@
 ## 使用如下
 
 
-let acVC = ActionSheetViewController(cellTitleList: ["保存", "收藏", "分享", "点赞"])!
+        let acVC = ActionSheetViewController(cellTitleList: ["保存", "收藏", "分享", "点赞"])!
         acVC.valueBlock = { index in
             print(index)
         }
@@ -12,5 +12,5 @@ let acVC = ActionSheetViewController(cellTitleList: ["保存", "收藏", "分享
         acVC.cellTitleFont = 17
         acVC.titleString = "当你弹出来时，我love你"
         
-present(acVC, animated: false, completion:  nil)
+        present(acVC, animated: false, completion:  nil)
 
